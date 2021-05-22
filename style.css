@@ -15,7 +15,7 @@ body {
       width: 105px;
       height: 24px;
       left: 12px;
-      top: 10px;
+      top: 45px;
       color: #FFFFFF;
       background-color: #3C3A39 !important;
       font-family: Roboto;
@@ -26,6 +26,33 @@ body {
       box-sizing: border-box; }
     body header ul {
       display: none; }
+    body header .dropdown {
+      position: relative;
+      display: inline-block;
+      right: 40px;
+      top: 20px; }
+    body header i {
+      font-size: 30px;
+      border: none;
+      color: #ACB7C3; }
+    body header .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #DBD8D7;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1; }
+    body header .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block; }
+    body header .dropdown-content a:hover {
+      background-color: #ddd; }
+    body header .dropdown:hover .dropdown-content {
+      display: block; }
+  body .dropdown:hover .dropbnt {
+    background-color: #3e8e41; }
   body section {
     width: 375px;
     position: absolute;
@@ -131,5 +158,9 @@ body {
       font-weight: normal;
       font-size: 16px;
       line-height: 24px; }
+    body .projects .recent_works .techs {
+      position: relative;
+      top: 20px;
+      color: red; }
 
 /*# sourceMappingURL=style.css.map */
