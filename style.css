@@ -111,7 +111,8 @@ body {
     position: absolute;
     top: 500px;
     left: 0;
-    background-color: #E5E5E5; }
+    background-color: #E5E5E5;
+    padding-bottom: 200px; }
     body .projects .recent_works h3 {
       width: 327px;
       height: 83px;
@@ -158,9 +159,337 @@ body {
       font-weight: normal;
       font-size: 16px;
       line-height: 24px; }
-    body .projects .recent_works .techs {
+    body .projects .recent_works .stacks {
       position: relative;
-      top: 20px;
-      color: red; }
+      top: 70px;
+      left: 24px;
+      width: 327px; }
+      body .projects .recent_works .stacks .tech1 {
+        width: 25px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        height: 20px;
+        color: #091E42;
+        border: 1px solid #8993A4;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        padding: 10px 12px; }
+      body .projects .recent_works .stacks .tech2 {
+        width: 32px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        height: 20px;
+        color: #091E42;
+        border: 1px solid #8993A4;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        padding: 10px 12px; }
+      body .projects .recent_works .stacks .tech3 {
+        width: 71px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        height: 20px;
+        color: #091E42;
+        border: 1px solid #8993A4;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        padding: 10px 12px; }
+      body .projects .recent_works .stacks .tech4 {
+        width: 71px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        height: 20px;
+        color: #091E42;
+        border: 1px solid #8993A4;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        padding: 10px 12px; }
+    body .projects .recent_works button {
+      position: relative;
+      left: 24px;
+      top: 80px;
+      padding: 12px;
+      width: 124px;
+      height: 48px;
+      background: #FF6B00;
+      margin: 12px 0px;
+      border: none;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 24px;
+      color: #FFFFFF; }
+    body .projects .second-project {
+      position: relative;
+      top: 70px;
+      width: 327px;
+      height: 325px;
+      left: 24px;
+      background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/telegram.png);
+      background-size: cover; }
+      body .projects .second-project h3 {
+        position: relative;
+        width: 295px;
+        height: 81px;
+        left: 16px;
+        top: 70px;
+        font-family: Crete Round;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 44px;
+        color: #FFFFFF; }
+      body .projects .second-project p {
+        position: relative;
+        width: 295px;
+        height: 87px;
+        left: 16px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF; }
+      body .projects .second-project span {
+        position: relative;
+        top: 50px;
+        left: 16px;
+        width: 37px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+        height: 20px;
+        color: #091E42;
+        border: 1px solid #8993A4;
+        box-sizing: border-box;
+        background: #FFFFFF;
+        padding: 10px 12px;
+        background: rgba(255, 255, 255, 0.24) !important;
+        color: #FFFFFF !important;
+        border: none; }
+      body .projects .second-project button {
+        position: relative;
+        top: 70px;
+        width: 327px;
+        height: 48px;
+        background: #FF6B00;
+        border: none;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: #FFFFFF; }
+    body .projects .third-project {
+      background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/tic_tac.jpeg); }
+    body .projects .fourth-project {
+      background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/delala1.png);
+      background-size: 327px;
+      background-repeat: no-repeat; }
+  body .about {
+    position: absolute;
+    top: 2370px;
+    padding-bottom: 400px; }
+    body .about .about-me button {
+      position: relative;
+      top: 40px;
+      left: 24px;
+      width: 161px;
+      height: 48px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 17px;
+      line-height: 24px;
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+      background: #FF6B00;
+      padding: 12px;
+      border: none; }
+    body .about .about-me:after {
+      content: '';
+      width: 327px;
+      position: absolute;
+      left: 24px;
+      top: 450px;
+      border: 1px solid #FFFFFF;
+      display: block; }
+    body .about .tech-stacks {
+      position: relative;
+      top: 300px; }
+      body .about .tech-stacks .language {
+        position: relative;
+        left: 24px; }
+        body .about .tech-stacks .language .diamond {
+          position: relative;
+          left: 40px;
+          top: 27px;
+          width: 18px;
+          height: 18px;
+          background: #FF6B00;
+          transform: rotate(-45deg); }
+        body .about .tech-stacks .language h5 {
+          position: relative;
+          left: 49px;
+          text-align: center;
+          color: #DBD8D7;
+          width: 164px;
+          height: 24px;
+          font-family: InaiMathi;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 32px;
+          line-height: 44px;
+          color: #FFFFFF;
+          margin: 0px 12px; }
+        body .about .tech-stacks .language ul {
+          position: relative;
+          left: 55px;
+          list-style: none;
+          text-align: center; }
+          body .about .tech-stacks .language ul li {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 43px;
+            color: #FFFFFF;
+            width: 114px;
+            height: 24px;
+            margin-top: 15px; }
+      body .about .tech-stacks .frameworks {
+        position: relative;
+        top: 20px; }
+        body .about .tech-stacks .frameworks .square {
+          margin-left: -20px;
+          transform: rotate(90deg); }
+        body .about .tech-stacks .frameworks ul li {
+          width: 162px;
+          margin-left: -25px; }
+      body .about .tech-stacks .skills {
+        position: relative;
+        top: 50px;
+        margin-left: -10px; }
+        body .about .tech-stacks .skills .circle {
+          border-radius: 50%;
+          margin-left: 40px; }
+  body footer {
+    position: absolute;
+    top: 3660px;
+    left: 0;
+    width: 375px;
+    background: #E5E5E5;
+    padding-bottom: 230px; }
+    body footer .get-in-touch .get-mob p {
+      position: relative;
+      top: 100px;
+      left: 24px;
+      width: 327px;
+      height: 216px;
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 44px;
+      text-align: center;
+      color: #172B4D; }
+    body footer .get-in-touch .mob-form form {
+      position: relative;
+      top: 40px; }
+      body footer .get-in-touch .mob-form form #full-name,
+      body footer .get-in-touch .mob-form form #email {
+        position: relative;
+        top: 100px;
+        left: 24px;
+        border: none;
+        margin-bottom: 20px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        height: 18px;
+        align-items: center;
+        color: #979493;
+        border: 0px solid #DBD8D7;
+        border-bottom-width: 1px;
+        border-radius: 0px;
+        background-color: transparent;
+        padding: 14px 0;
+        width: 327px;
+        margin-bottom: 33px;
+        padding-left: 16px; }
+      body footer .get-in-touch .mob-form form textarea {
+        position: relative;
+        top: 100px;
+        left: 24px;
+        width: 327px;
+        height: 114px;
+        border-radius: 0;
+        background: #FBF8F7;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 24px;
+        color: #3C3A39; }
+      body footer .get-in-touch .mob-form form button {
+        position: relative;
+        top: 90px;
+        width: 131px;
+        height: 48px;
+        left: 98px;
+        background: #FF6B00;
+        border: none;
+        margin: 24px 0px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF; }
+      body footer .get-in-touch .mob-form form button:after {
+        content: '';
+        width: 373px;
+        position: absolute;
+        left: -98px;
+        top: 140px;
+        border: 1px solid #DFE1E6;
+        display: block; }
+    body footer .get-in-touch .footer-icons {
+      position: relative;
+      top: 200px;
+      left: 99.01px;
+      right: 97px; }
+      body footer .get-in-touch .footer-icons a i {
+        padding-right: 30px;
+        font-size: 30px;
+        color: #505F79; }
+      body footer .get-in-touch .footer-icons .bottom-border {
+        position: relative;
+        top: 23px;
+        left: 13px;
+        width: 131px;
+        height: 5px;
+        background: #0D151E;
+        border-radius: 10px; }
 
 /*# sourceMappingURL=style.css.map */
