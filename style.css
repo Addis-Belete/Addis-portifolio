@@ -216,7 +216,7 @@ body {
         box-sizing: border-box;
         background: #FFFFFF;
         padding: 10px 12px; }
-    body .projects .recent_works button {
+    body .projects .recent_works a.button {
       position: relative;
       left: 24px;
       top: 80px;
@@ -231,7 +231,11 @@ body {
       font-weight: bold;
       font-size: 17px;
       line-height: 24px;
-      color: #FFFFFF; }
+      color: #FFFFFF;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+      text-decoration: none; }
     body .projects .second-project {
       position: relative;
       top: 70px;
@@ -282,7 +286,7 @@ body {
         background: rgba(255, 255, 255, 0.24) !important;
         color: #FFFFFF !important;
         border: none; }
-      body .projects .second-project button {
+      body .projects .second-project a.button {
         position: relative;
         top: 70px;
         width: 327px;
@@ -295,8 +299,13 @@ body {
         font-size: 17px;
         line-height: 24px;
         letter-spacing: 0.03em;
+        padding: 12px 0;
+        color: #FFFFFF;
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
         text-align: center;
-        color: #FFFFFF; }
+        text-decoration: none; }
     body .projects .third-project {
       background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/tic_tac.jpeg); }
     body .projects .fourth-project {
@@ -307,7 +316,7 @@ body {
     position: absolute;
     top: 2370px;
     padding-bottom: 400px; }
-    body .about .about-me button {
+    body .about .about-me a.button {
       position: relative;
       top: 40px;
       left: 24px;
@@ -322,7 +331,12 @@ body {
       color: #FFFFFF;
       background: #FF6B00;
       padding: 12px;
-      border: none; }
+      border: none;
+      -webkit-appearance: button;
+      -moz-appearance: button;
+      appearance: button;
+      text-align: center;
+      text-decoration: none; }
     body .about .about-me:after {
       content: '';
       width: 327px;
@@ -480,8 +494,8 @@ body {
       left: 99.01px;
       right: 97px; }
       body footer .get-in-touch .footer-icons a i {
-        padding-right: 30px;
-        font-size: 30px;
+        padding-right: 23px;
+        font-size: 25px;
         color: #505F79; }
       body footer .get-in-touch .footer-icons .bottom-border {
         position: relative;
@@ -491,5 +505,25 @@ body {
         height: 5px;
         background: #0D151E;
         border-radius: 10px; }
+  @media (min-width: 1440px) {
+    body header {
+      width: 100%;
+      height: 72px; }
+      body header .name {
+        position: absolute;
+        top: 26px;
+        left: 154px;
+        width: 120px;
+        height: 20px;
+        font-size: 20px;
+        line-height: 20px; }
+      body header .dropdown {
+        display: none; }
+      body header ul {
+        position: absolute;
+        left: 1003px;
+        display: block;
+        display: flex;
+        top: 26px; } }
 
 /*# sourceMappingURL=style.css.map */
