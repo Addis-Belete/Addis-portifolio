@@ -1,5 +1,4 @@
 * {
-
 	box-sizing: border-box;
 }
 
@@ -9,21 +8,21 @@ section {
 	height: 718px;
 	left: 16px;
 	top: 60px;
-	background: #FFFFFF;
-	border: 1px solid #DFE1E6;
+	background: #fff;
+	border: 1px solid #dfe1e6;
 	box-sizing: border-box;
 
 	h3 {
 		position: relative;
 		width: 300px;
 		height: 82px;
-		top: 0px;
+		top: 0;
 		font-family: Roboto;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 32px;
 		line-height: 44px;
-		color: #172B4D;
+		color: #172b4d;
 		left: 16px;
 		margin-bottom: 30px;
 
@@ -32,7 +31,7 @@ section {
 			left: 130px;
 			right: 12px;
 			top: 5px;
-			color: #67798E;
+			color: #67798e;
 			text-decoration: none;
 		}
 
@@ -47,8 +46,6 @@ section {
 		}
 
 		//-------------------
-
-
 	}
 
 	//for tic tac toe page
@@ -83,11 +80,11 @@ section {
 			font-weight: 600;
 			font-size: 13px;
 			line-height: 16px;
-			color: #3C3A39;
+			color: #3c3a39;
 			align-items: center;
 			padding: 16px;
-			background: #FFFFFF;
-			border: 1px solid #DFE1E6;
+			background: #fff;
+			border: 1px solid #dfe1e6;
 			margin-bottom: 30px;
 		}
 	}
@@ -121,7 +118,7 @@ section {
 				width: 134px;
 				top: 80px;
 				left: 16px;
-				height: 24px;
+
 				font-family: Inter;
 				font-style: normal;
 				font-weight: bold;
@@ -129,20 +126,19 @@ section {
 				line-height: 24px;
 				text-align: center;
 				letter-spacing: 0.03em;
-				color: #FFFFFF;
+				color: #fff;
 				padding: 12px;
-				background: #FF6B00;
+				background: #ff6b00;
 				height: 48px;
 				margin-right: 19px;
-
 			}
 
 			a:hover {
-				background: #FFF5E1;
-				border: 1px solid #F55800;
+				background: #fff5e1;
+				border: 1px solid #f55800;
 				box-sizing: border-box;
 				text-decoration: none;
-				color: #F55800;
+				color: #f55800;
 			}
 		}
 	}
@@ -154,7 +150,7 @@ section {
 		position: absolute;
 		top: 112px;
 		left: 142px;
-		width: 1156px;
+
 		height: 631px;
 
 		.title {
@@ -165,7 +161,6 @@ section {
 				a {
 					position: relative;
 					left: 900px;
-
 				}
 			}
 		}
@@ -185,7 +180,6 @@ section {
 			img {
 				width: 659px;
 				height: 448px;
-
 			}
 
 			.project-description {
