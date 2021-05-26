@@ -147,3 +147,58 @@ section {
 		}
 	}
 }
+
+@media (min-width: 1024px) {
+	section {
+		width: 100%;
+		position: absolute;
+		top: 112px;
+		left: 142px;
+		width: 1156px;
+		height: 631px;
+
+		.title {
+			h3 {
+				width: 1056px;
+				line-height: 44px;
+
+				a {
+					position: relative;
+					left: 900px;
+
+				}
+			}
+		}
+
+		.techs {
+			position: relative;
+			top: -80px;
+		}
+
+		.project-detail {
+			display: grid;
+			grid-template-columns: 659px 424px;
+			position: relative;
+			bottom: 50px;
+			grid-gap: 25px;
+
+			img {
+				width: 659px;
+				height: 448px;
+
+			}
+
+			.project-description {
+				p {
+					width: 424px;
+					height: 336px;
+				}
+
+				a {
+					position: relative;
+					top: 137px;
+				}
+			}
+		}
+	}
+}
