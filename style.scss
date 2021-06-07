@@ -74,6 +74,13 @@ body {
 			background: #3C3A39;
 			box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
 			right: 10px;
+
+			i {
+				position: relative;
+				left: 320px;
+				top: -220px;
+				color: #FFF5E1;
+			}
 		}
 
 		.dropdown-content a {
@@ -93,14 +100,13 @@ body {
 			width: 327px;
 			position: absolute;
 			left: 24px;
+
 			border: 1px solid #6F6C6B;
 			display: block;
 
 		}
 
-		.dropdown-content a:hover {
-			background-color: #ddd;
-		}
+
 
 		.dropdown:hover .dropdown-content {
 			display: block;
