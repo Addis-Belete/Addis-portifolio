@@ -812,6 +812,17 @@ body {
               top: 140px;
               border: 1px solid #dfe1e6;
               display: block; }
+            body footer .get-in-touch .desktop-form form #status {
+              padding: 12px;
+              position: relative;
+              top: 70px;
+              left: 24px;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 17px;
+              border-radius: 5px;
+              font-family: Inter;
+              color: #172b4d; }
         body footer .get-in-touch .footer-icons {
           position: relative;
           left: 532px; }
