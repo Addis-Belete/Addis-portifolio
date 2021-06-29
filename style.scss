@@ -28,7 +28,7 @@ body {
 
 	header {
 		width: 100%;
-		height: 92px;
+		height: 24.53vw;
 		position: absolute;
 		left: 0%;
 		top: 0%;
@@ -36,17 +36,17 @@ body {
 
 		.name {
 			position: relative;
-			width: 105px;
-			height: 24px;
-			left: 12px;
-			top: 45px;
+			width: 28vw;
+			height: 6.4vw;
+			left: 6.4vw;
+			top: 12vw;
 			color: #fff;
 			background-color: #3c3a39 !important;
 			font-family: 'Roboto', sans-serif;
 			font-style: normal;
 			font-weight: bold;
-			font-size: 18px;
-			line-height: 24px;
+			font-size: 4.8vw;
+			line-height: 6.4vw;
 			box-sizing: border-box;
 		}
 
@@ -57,13 +57,13 @@ body {
 		.dropdown {
 			position: relative;
 			display: inline-block;
-			right: 40px;
-			top: 20px;
+			right: 10.67vw;
+			top: 5.33vw;
 			z-index: 2;
 		}
 
 		i {
-			font-size: 30px;
+			font-size: 8vw;
 			border: none;
 			color: #acb7c3;
 		}
@@ -118,17 +118,17 @@ body {
 		width: 100%;
 		position: absolute;
 		left: 0;
-		top: 92px;
+		top: 24.53vw;
 		background-color: #1c1a19;
 		overflow: hidden;
-		height: auto;
+		height: 157.33vw;
 
 		div {
 			h2 {
 				position: relative;
 				width: 87.2%;
 				left: 6.4%;
-				top: 50px;
+				top: 13.33vw;
 				font-family: 'Crete Round', serif;
 				font-style: normal;
 				font-weight: normal;
@@ -136,13 +136,14 @@ body {
 				line-height: 18.67vw;
 				letter-spacing: 0.37px;
 				color: #ff6b00;
+				height: 33.1vw;
 			}
 
 			h4 {
 				position: relative;
 				width: 87.2%;
 				left: 6.4%;
-				top: 50px;
+				top: 13.33vw;
 				font-family: 'Roboto', sans-serif;
 				font-style: normal;
 				font-weight: bold;
@@ -156,20 +157,21 @@ body {
 				width: 87.2%;
 				height: auto;
 				left: 6.4%;
-				top: 40px;
+				top: 10.67vw;
 				font-family: 'Inter', sans-serif;
 				font-style: normal;
 				font-weight: normal;
 				font-size: 4.23vw;
 				line-height: 6.4vw;
 				color: #fff;
+				height: 32.8vw;
 			}
 		}
 
 		.contact_link {
 			position: relative;
 			left: 8%;
-			top: 35px;
+			top: 9.3vw375;
 			bottom: 0%;
 
 			a {
@@ -187,11 +189,12 @@ body {
 	.projects {
 		width: 100%;
 		position: absolute;
-		top: 500px;
+		top: 133.33vw;
 		left: 0;
 		background-color: #e5e5e5;
-		padding-bottom: 200px;
+		padding-bottom: 53.33vw;
 		overflow-x: hidden;
+		height: 500vw;
 
 		.desk-title {
 			display: none;
@@ -204,9 +207,9 @@ body {
 		.recent_works {
 			h3 {
 				width: 100%;
-				height: 83px;
-				padding-left: 6.4%;
-				margin-top: 120px;
+				height: 22.13vw;
+				padding-left: 6.4vw;
+				margin-top: 32vw;
 				color: #1c1a19;
 				font-family: 'Crete Round', serif;
 				font-style: normal;
@@ -218,8 +221,8 @@ body {
 				content: '';
 				width: 87.2%;
 				position: absolute;
-				left: 6.4%;
-				top: 190px;
+				left: 6.4vw;
+				top: 50.67vw;
 				border: 1px solid #212121;
 				display: block;
 			}
@@ -229,16 +232,16 @@ body {
 				width: 87.2%;
 				left: 6.4%;
 				height: auto;
-				top: 30px;
+				top: 8vw;
 				background-color: #e5e5e5;
 			}
 
 			h4 {
 				position: relative;
 				width: 87.2%;
-				height: auto;
+				height: 9.6vw;
 				left: 6.4%;
-				top: 35px;
+				top: 9.33vw;
 				font-family: 'Crete Round', serif;
 				font-style: normal;
 				font-weight: normal;
@@ -250,12 +253,13 @@ body {
 			p {
 				color: #091e42;
 				width: $mob-width;
-				height: auto;
+
 				font-family: 'Inter', sans-serif;
 				font-style: normal;
 				font-weight: normal;
 				font-size: 4.27vw;
 				line-height: 6.4vw;
+				height: 39.2vw;
 			}
 
 			.stacks {
@@ -314,14 +318,15 @@ body {
 
 		.second-project {
 			position: relative;
-			top: 18.67vw;
+			top: 17vw;
 			width: $mob-width;
-			height: 86.67vw;
+			height: 83vw;
 			left: 6.4vw;
 			background:
 				linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
 				url(assets/telegram.png);
 			background-size: cover;
+			margin-top: 6.4vw;
 
 			h3 {
 				position: relative;
@@ -388,38 +393,41 @@ body {
 
 		.third-project {
 			background-image: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/tic_tac.jpeg);
+			margin-top: 6.4vw;
 		}
 
 		.fourth-project {
 			background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/delala1.png);
-			background-size: 327px;
+			background-size: 100%;
 			background-repeat: no-repeat;
+			margin-top: 6.4vw;
 		}
 	}
 
 	.about {
 		position: absolute;
-		top: 2370px;
-		padding-bottom: 400px;
+		top: 632vw;
+
 		overflow-x: hidden;
 		width: 100%;
+		height: 370vw;
 
 		.about-me {
 			a.button {
 				position: relative;
-				top: 40px;
-				left: 24px;
-				width: 161px;
-				height: 48px;
+				top: 10.67vw;
+				left: $mob-left;
+				width: 42.93vw;
+				height: 12.8vw;
 				font-family: 'Inter', sans-serif;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 17px;
-				line-height: 24px;
+				font-size: 4.53vw;
+				line-height: 6.4vw;
 				letter-spacing: 0.03em;
 				color: #fff;
 				background: #ff6b00;
-				padding: 12px;
+				padding: 3.2vw;
 				border: none;
 				-webkit-appearance: button;
 				-moz-appearance: button;
@@ -431,50 +439,50 @@ body {
 
 		.about-me::after {
 			content: '';
-			width: 327px;
+			width: $mob-width;
 			position: absolute;
-			left: 24px;
-			top: 450px;
+			left: $mob-left;
+			top: 120vw;
 			border: 1px solid #fff;
 			display: block;
 		}
 
 		.tech-stacks {
 			position: relative;
-			top: 300px;
+			top: 80vw;
 
 			.language {
 				position: relative;
-				left: 24px;
+				left: $mob-left;
 
 				.diamond {
 					position: relative;
-					left: 40px;
-					top: 27px;
-					width: 18px;
-					height: 18px;
+					left: 10.67vw;
+					top: 7.2vw;
+					width: 4.8vw;
+					height: 4.8vw;
 					background: #ff6b00;
 					transform: rotate(-45deg);
 				}
 
 				h5 {
 					position: relative;
-					left: 49px;
+					left: 13.1vw;
 					text-align: center;
-					width: 164px;
-					height: 24px;
+					width: 43.73vw;
+					height: 6.4vw;
 					font-family: 'Crete Round', serif;
 					font-style: normal;
 					font-weight: bold;
-					font-size: 32px;
-					line-height: 44px;
+					font-size: 8.53vw;
+					line-height: 11.73vw;
 					color: #fff;
-					margin: 0 12px;
+					margin: 0 3.2vw;
 				}
 
 				ul {
 					position: relative;
-					left: 55px;
+					left: 14.67vw;
 					list-style: none;
 					text-align: center;
 
@@ -482,41 +490,43 @@ body {
 						font-family: 'Inter', sans-serif;
 						font-style: normal;
 						font-weight: normal;
-						font-size: 22px;
-						line-height: 43px;
+						font-size: 5.87vw;
+						line-height: 11.5vw;
 						color: #fff;
-						width: 114px;
-						height: 24px;
-						margin-top: 15px;
+						width: 30.4vw;
+						height: 6.4vw;
+						margin-top: 4vw;
 					}
 				}
 			}
 
 			.frameworks {
 				position: relative;
-				top: 20px;
+				top: 5.33vw;
 
 				.square {
-					margin-left: -20px;
+					position: relative;
+					top: 8vw;
+					margin-left: -2.67vw;
 					transform: rotate(90deg);
 				}
 
 				ul {
 					li {
-						width: 162px;
-						margin-left: -25px;
+						width: 43.2vw;
+						margin-left: -6.67vw;
 					}
 				}
 			}
 
 			.skills {
 				position: relative;
-				top: 50px;
-				margin-left: -10px;
+				top: 13.33vw;
+				margin-left: -2.67vw;
 
 				.circle {
 					border-radius: 50%;
-					margin-left: 40px;
+					margin-left: 10.67vw;
 				}
 			}
 		}
@@ -524,26 +534,26 @@ body {
 
 	footer {
 		position: absolute;
-		top: 3660px;
+		top: 1000vw;
 		left: 0;
 		width: 100%;
 		background: #e5e5e5;
-		padding-bottom: 230px;
+		padding-bottom: 61.33vw;
 		overflow: hidden;
 
 		.get-in-touch {
 			.get-mob {
 				p {
 					position: relative;
-					top: 100px;
-					left: 24px;
-					width: 327px;
-					height: 216px;
+					top: 26.67vw;
+					left: $mob-left;
+					width: $mob-width;
+					height: 57.6vw;
 					font-family: 'Inter', sans-serif;
 					font-style: normal;
 					font-weight: bold;
-					font-size: 32px;
-					line-height: 44px;
+					font-size: 8.53vw;
+					line-height: 11.73vw;
 					text-align: center;
 					color: #172b4d;
 				}
@@ -552,71 +562,71 @@ body {
 			.mob-form {
 				form {
 					position: relative;
-					top: 40px;
+					top: 10.67vw;
 
 					#full-name,
 					#email {
 						position: relative;
-						top: 100px;
-						left: 24px;
+						top: 26.67vw;
+						left: $mob-left;
 						border: none;
 						font-family: 'Inter', sans-serif;
 						font-style: normal;
 						font-weight: normal;
-						font-size: 15px;
-						line-height: 24px;
-						height: 18px;
+						font-size: 4vw;
+						line-height: 6.4vw;
+						height: 4.8vw;
 						align-items: center;
 						color: #979493;
-						border-bottom-width: 1px;
+						border-bottom-width: 0.267vw;
 						background-color: transparent;
-						padding: 14px 0;
-						width: 327px;
-						margin-bottom: 33px;
-						padding-left: 16px;
+						padding: 3.73vw 0;
+						width: $mob-width;
+						margin-bottom: 8.8vw;
+						padding-left: 4.3vw;
 					}
 
 					textarea {
 						position: relative;
-						top: 100px;
-						left: 24px;
-						width: 327px;
-						height: 114px;
+						top: 26.67vw;
+						left: $mob-left;
+						width: $mob-width;
+						height: 30.4vw;
 						border-radius: 0;
 						background: #fbf8f7;
 						font-family: 'Inter', sans-serif;
 						font-style: normal;
 						font-weight: normal;
-						font-size: 15px;
-						line-height: 24px;
+						font-size: 4vw;
+						line-height: 6.4vw;
 						color: #3c3a39;
 					}
 
 					button {
 						position: relative;
-						top: 90px;
-						width: 131px;
-						height: 48px;
-						left: 98px;
+						top: 24vw;
+						width: 34.93vw;
+						height: 12.8vw;
+						left: 26.13vw;
 						background: #ff6b00;
 						border: none;
-						margin: 24px 0;
+						margin: 6.4vw 0;
 						font-family: 'Inter', sans-serif;
 						font-style: normal;
 						font-weight: bold;
-						font-size: 17px;
-						line-height: 24px;
+						font-size: 4.53vw;
+						line-height: 6.4vw;
 						letter-spacing: 0.03em;
 						color: #fff;
 					}
 
 					button::after {
 						content: '';
-						width: 373px;
+						width: 99.5vw;
 						position: absolute;
-						left: -98px;
-						top: 140px;
-						border: 1px solid #dfe1e6;
+						left: -26.13vw;
+						top: 37.33vw;
+						border: 0.267vw solid #dfe1e6;
 						display: block;
 					}
 				}
@@ -628,26 +638,26 @@ body {
 
 			.footer-icons {
 				position: relative;
-				top: 200px;
-				left: 99.01px;
-				right: 97px;
+				top: 53.33vw;
+				left: 26.4vw;
+				right: 25.87vw;
 
 				a {
 					i {
-						padding-right: 23px;
-						font-size: 25px;
+						padding-right: 6.13vw;
+						font-size: 6.67vw;
 						color: #505f79;
 					}
 				}
 
 				.bottom-border {
 					position: relative;
-					top: 23px;
-					left: 13px;
-					width: 131px;
-					height: 5px;
+					top: 6.13vw;
+					left: 3.5vw;
+					width: 34.93vw;
+					height: 1.33vw;
 					background: #0d151e;
-					border-radius: 10px;
+					border-radius: 2.67vw;
 				}
 			}
 		}
