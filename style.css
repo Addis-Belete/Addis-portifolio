@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Roboto:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
@@ -83,39 +84,39 @@ body {
     overflow: hidden; }
     body section div h2 {
       position: relative;
-      width: 327px;
-      left: 24px;
+      width: 87.2%;
+      left: 6.4%;
       top: 50px;
       font-family: 'Crete Round', serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 56px;
-      line-height: 64px;
+      font-size: 14.93vw;
+      line-height: 18.67vw;
       letter-spacing: 0.37px;
       color: #ff6b00; }
     body section div h4 {
       position: relative;
-      width: 327px;
+      width: 87.2%;
       height: 27px;
-      left: 24px;
-      top: 35px;
+      left: 6.4%;
+      top: 50px;
       font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 24px;
-      line-height: 32px;
+      font-size: 6.4vw;
+      line-height: 8.53vw;
       color: #fff5e1; }
     body section div p {
       position: relative;
-      width: 327px;
+      width: 87.2%;
       height: 123px;
-      left: 24px;
+      left: 6.4%;
       top: 40px;
       font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
-      line-height: 24px;
+      font-size: 4.23vw;
+      line-height: 6.4vw;
       color: #fff; }
     body section .contact_link {
       position: relative;
@@ -123,9 +124,9 @@ body {
       top: 30px;
       bottom: 0%; }
       body section .contact_link a i {
-        width: 60px;
+        width: 16%;
         height: 20px;
-        font-size: 25px;
+        font-size: 5.33vw;
         color: #dbd8d7;
         margin-bottom: 70px; }
   body .projects {
@@ -822,5 +823,7 @@ body {
           left: 530px; }
           body footer .get-in-touch .footer-icons .bottom-border {
             display: none; } }
+
+/* stylelint-enable no-descending-specificity */
 
 /*# sourceMappingURL=style.css.map */
