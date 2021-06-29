@@ -81,7 +81,8 @@ body {
     left: 0;
     top: 92px;
     background-color: #1c1a19;
-    overflow: hidden; }
+    overflow: hidden;
+    height: auto; }
     body section div h2 {
       position: relative;
       width: 87.2%;
@@ -97,7 +98,6 @@ body {
     body section div h4 {
       position: relative;
       width: 87.2%;
-      height: 27px;
       left: 6.4%;
       top: 50px;
       font-family: 'Roboto', sans-serif;
@@ -109,7 +109,7 @@ body {
     body section div p {
       position: relative;
       width: 87.2%;
-      height: 123px;
+      height: auto;
       left: 6.4%;
       top: 40px;
       font-family: 'Inter', sans-serif;
@@ -121,11 +121,11 @@ body {
     body section .contact_link {
       position: relative;
       left: 8%;
-      top: 30px;
+      top: 35px;
       bottom: 0%; }
       body section .contact_link a i {
         width: 16%;
-        height: 20px;
+        height: auto;
         font-size: 5.33vw;
         color: #dbd8d7;
         margin-bottom: 70px; }
@@ -144,121 +144,120 @@ body {
     body .projects .recent_works h3 {
       width: 100%;
       height: 83px;
-      padding-left: 24px;
+      padding-left: 6.4%;
       margin-top: 120px;
       color: #1c1a19;
       font-family: 'Crete Round', serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 40px; }
+      font-size: 10.67vw; }
     body .projects .recent_works h3::after {
       content: '';
-      width: 327px;
+      width: 87.2%;
       position: absolute;
-      left: 24px;
+      left: 6.4%;
       top: 190px;
       border: 1px solid #212121;
       display: block; }
     body .projects .recent_works img {
       position: relative;
-      width: 327px;
-      left: 24px;
+      width: 87.2%;
+      left: 6.4%;
       height: auto;
       top: 30px;
       background-color: #e5e5e5; }
     body .projects .recent_works h4 {
       position: relative;
-      width: 327px;
-      height: 36px;
-      left: 24px;
+      width: 87.2%;
+      height: auto;
+      left: 6.4%;
       top: 35px;
       font-family: 'Crete Round', serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 32px;
-      line-height: 44px;
+      font-size: 8.53vw;
+      line-height: 11.73vw;
       color: #091e42; }
     body .projects .recent_works p {
       color: #091e42;
-      width: 327px;
-      height: 147px;
+      width: 87.2%;
+      height: auto;
       font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: normal;
-      font-size: 16px;
-      line-height: 24px; }
+      font-size: 4.27vw;
+      line-height: 6.4vw; }
     body .projects .recent_works .stacks {
       position: relative;
-      top: 70px;
-      left: 24px;
-      width: 327px; }
+      top: 18.67vw;
+      left: 6.4%; }
       body .projects .recent_works .stacks .tech1 {
-        width: 25px;
+        width: 6.67vw;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 4vw;
+        line-height: 5.33vw;
         height: 20px;
         color: #091e42;
-        border: 1px solid #8993a4;
+        border: 0.27vw solid #8993a4;
         box-sizing: border-box;
         background: #fff;
-        padding: 10px 12px; }
+        padding: 2.67vw 3.2vw; }
       body .projects .recent_works .stacks .tech2 {
-        width: 32px;
+        width: 8.533vw;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 4vw;
+        line-height: 5.33vw;
         height: 20px;
         color: #091e42;
-        border: 1px solid #8993a4;
+        border: 0.27vw solid #8993a4;
         box-sizing: border-box;
         background: #fff;
-        padding: 10px 12px; }
+        padding: 2.67vw 3.2vw; }
       body .projects .recent_works .stacks .tech3 {
-        width: 71px;
+        width: 17.93vw;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 4vw;
+        line-height: 5.33vw;
         height: 20px;
         color: #091e42;
-        border: 1px solid #8993a4;
+        border: 0.27vw solid #8993a4;
         box-sizing: border-box;
         background: #fff;
-        padding: 10px 12px; }
+        padding: 2.67vw 3.2vw; }
       body .projects .recent_works .stacks .tech4 {
-        width: 71px;
+        width: 1.93vw;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 4vw;
+        line-height: 5.33vw;
         height: 20px;
         color: #091e42;
-        border: 1px solid #8993a4;
+        border: 0.27vw solid #8993a4;
         box-sizing: border-box;
         background: #fff;
-        padding: 10px 12px; }
+        padding: 2.67vw 3.2vw; }
     body .projects .recent_works a.button {
       position: relative;
-      left: 24px;
-      top: 80px;
-      padding: 12px;
-      width: 124px;
-      height: 48px;
+      left: 6.4%;
+      top: 21.33vw;
+      padding: 3.2vw;
+      width: 33.1vw;
+      height: auto;
       background: #ff6b00;
-      margin: 12px 0;
+      margin: 3.2vw 0;
       border: none;
       font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 17px;
-      line-height: 24px;
+      font-size: 4.53vw;
+      line-height: 6.4vw;
       color: #fff;
       -webkit-appearance: button;
       -moz-appearance: button;
@@ -266,68 +265,68 @@ body {
       text-decoration: none; }
     body .projects .second-project {
       position: relative;
-      top: 70px;
-      width: 327px;
-      height: 325px;
-      left: 24px;
+      top: 18.67vw;
+      width: 87.2%;
+      height: 86.67vw;
+      left: 6.4vw;
       background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(assets/telegram.png);
       background-size: cover; }
       body .projects .second-project h3 {
         position: relative;
-        width: 295px;
-        height: 81px;
-        left: 16px;
-        top: 70px;
+        width: 78.67vw;
+        height: 21.6vw;
+        left: 4.23vw;
+        top: 18.67vw;
         font-family: 'Crete Round', serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 32px;
-        line-height: 44px;
+        font-size: 8.53vw;
+        line-height: 11.73vw;
         color: #fff; }
       body .projects .second-project p {
         position: relative;
-        width: 295px;
-        height: 87px;
-        left: 16px;
+        width: 78.67vw;
+        height: 23.2vw;
+        left: 4.23vw;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 16px;
-        line-height: 24px;
+        font-size: 4.267vw;
+        line-height: 6.4vw;
         color: #fff; }
       body .projects .second-project span {
         position: relative;
-        top: 50px;
-        left: 16px;
-        width: 37px;
+        top: 13.33vw;
+        left: 4.23vw;
+        width: 9.867vw;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
-        font-size: 15px;
-        line-height: 20px;
+        font-size: 4vw;
+        line-height: 5.33vw;
         height: 20px;
         color: #091e42;
-        border: 1px solid #8993a4;
+        border: 0.27vw solid #8993a4;
         box-sizing: border-box;
         background: #fff;
-        padding: 10px 12px;
+        padding: 2.67vw 3.2vw;
         background: rgba(255, 255, 255, 0.24) !important;
         color: #fff !important;
         border: none; }
       body .projects .second-project a.button {
         position: relative;
-        top: 70px;
-        width: 327px;
-        height: 48px;
+        top: 18.67vw;
+        width: 100%;
+        height: 12.8vw;
         background: #ff6b00;
         border: none;
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 17px;
-        line-height: 24px;
+        font-size: 4.53vw;
+        line-height: 6.4vw;
         letter-spacing: 0.03em;
-        padding: 12px 0;
+        padding: 3.2vw 0;
         color: #fff;
         -webkit-appearance: button;
         -moz-appearance: button;

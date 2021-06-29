@@ -2,19 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Roboto:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+$mob-width: 87.2%;
+$mob-left:6.4%;
 
 @mixin techs {
 	font-family: 'Inter', sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 15px;
-	line-height: 20px;
+	font-size: 4vw;
+	line-height: 5.33vw;
 	height: 20px;
 	color: #091e42;
-	border: 1px solid #8993a4;
+	border: 0.27vw solid #8993a4;
 	box-sizing: border-box;
 	background: #fff;
-	padding: 10px 12px;
+	padding: 2.67vw 3.2vw;
 }
 
 * {
@@ -119,6 +121,7 @@ body {
 		top: 92px;
 		background-color: #1c1a19;
 		overflow: hidden;
+		height: auto;
 
 		div {
 			h2 {
@@ -138,7 +141,6 @@ body {
 			h4 {
 				position: relative;
 				width: 87.2%;
-				height: 27px;
 				left: 6.4%;
 				top: 50px;
 				font-family: 'Roboto', sans-serif;
@@ -152,7 +154,7 @@ body {
 			p {
 				position: relative;
 				width: 87.2%;
-				height: 123px;
+				height: auto;
 				left: 6.4%;
 				top: 40px;
 				font-family: 'Inter', sans-serif;
@@ -167,13 +169,13 @@ body {
 		.contact_link {
 			position: relative;
 			left: 8%;
-			top: 30px;
+			top: 35px;
 			bottom: 0%;
 
 			a {
 				i {
 					width: 16%;
-					height: 20px;
+					height: auto;
 					font-size: 5.33vw;
 					color: #dbd8d7;
 					margin-bottom: 70px;
@@ -203,20 +205,20 @@ body {
 			h3 {
 				width: 100%;
 				height: 83px;
-				padding-left: 24px;
+				padding-left: 6.4%;
 				margin-top: 120px;
 				color: #1c1a19;
 				font-family: 'Crete Round', serif;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 40px;
+				font-size: 10.67vw;
 			}
 
 			h3::after {
 				content: '';
-				width: 327px;
+				width: 87.2%;
 				position: absolute;
-				left: 24px;
+				left: 6.4%;
 				top: 190px;
 				border: 1px solid #212121;
 				display: block;
@@ -224,8 +226,8 @@ body {
 
 			img {
 				position: relative;
-				width: 327px;
-				left: 24px;
+				width: 87.2%;
+				left: 6.4%;
 				height: auto;
 				top: 30px;
 				background-color: #e5e5e5;
@@ -233,55 +235,55 @@ body {
 
 			h4 {
 				position: relative;
-				width: 327px;
-				height: 36px;
-				left: 24px;
+				width: 87.2%;
+				height: auto;
+				left: 6.4%;
 				top: 35px;
 				font-family: 'Crete Round', serif;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 32px;
-				line-height: 44px;
+				font-size: 8.53vw;
+				line-height: 11.73vw;
 				color: #091e42;
 			}
 
 			p {
 				color: #091e42;
-				width: 327px;
-				height: 147px;
+				width: $mob-width;
+				height: auto;
 				font-family: 'Inter', sans-serif;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 16px;
-				line-height: 24px;
+				font-size: 4.27vw;
+				line-height: 6.4vw;
 			}
 
 			.stacks {
 				position: relative;
-				top: 70px;
-				left: 24px;
-				width: 327px;
+				top: 18.67vw;
+				left: $mob-left;
+
 
 				.tech1 {
-					width: 25px;
+					width: 6.67vw;
 
 					@include techs;
 				}
 
 				.tech2 {
-					width: 32px;
+					width: 8.533vw;
 
 					@include techs;
 				}
 
 				.tech3 {
-					width: 71px;
+					width: 17.93vw;
 
 					@include techs;
 				}
 
 				.tech4 {
-					width: 71px;
+					width: 1.93vw;
 
 					@include techs;
 				}
@@ -289,19 +291,19 @@ body {
 
 			a.button {
 				position: relative;
-				left: 24px;
-				top: 80px;
-				padding: 12px;
-				width: 124px;
-				height: 48px;
+				left: $mob-left;
+				top: 21.33vw;
+				padding: 3.2vw;
+				width: 33.1vw;
+				height: auto;
 				background: #ff6b00;
-				margin: 12px 0;
+				margin: 3.2vw 0;
 				border: none;
 				font-family: 'Inter', sans-serif;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 17px;
-				line-height: 24px;
+				font-size: 4.53vw;
+				line-height: 6.4vw;
 				color: #fff;
 				-webkit-appearance: button;
 				-moz-appearance: button;
@@ -312,10 +314,10 @@ body {
 
 		.second-project {
 			position: relative;
-			top: 70px;
-			width: 327px;
-			height: 325px;
-			left: 24px;
+			top: 18.67vw;
+			width: $mob-width;
+			height: 86.67vw;
+			left: 6.4vw;
 			background:
 				linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),
 				url(assets/telegram.png);
@@ -323,36 +325,36 @@ body {
 
 			h3 {
 				position: relative;
-				width: 295px;
-				height: 81px;
-				left: 16px;
-				top: 70px;
+				width: 78.67vw;
+				height: 21.6vw;
+				left: 4.23vw;
+				top: 18.67vw;
 				font-family: 'Crete Round', serif;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 32px;
-				line-height: 44px;
+				font-size: 8.53vw;
+				line-height: 11.73vw;
 				color: #fff;
 			}
 
 			p {
 				position: relative;
-				width: 295px;
-				height: 87px;
-				left: 16px;
+				width: 78.67vw;
+				height: 23.2vw;
+				left: 4.23vw;
 				font-family: 'Inter', sans-serif;
 				font-style: normal;
 				font-weight: normal;
-				font-size: 16px;
-				line-height: 24px;
+				font-size: 4.267vw;
+				line-height: 6.4vw;
 				color: #fff;
 			}
 
 			span {
 				position: relative;
-				top: 50px;
-				left: 16px;
-				width: 37px;
+				top: 13.33vw;
+				left: 4.23vw;
+				width: 9.867vw;
 
 				@include techs;
 
@@ -363,18 +365,18 @@ body {
 
 			a.button {
 				position: relative;
-				top: 70px;
-				width: 327px;
-				height: 48px;
+				top: 18.67vw;
+				width: 100%;
+				height: 12.8vw;
 				background: #ff6b00;
 				border: none;
 				font-family: 'Inter', sans-serif;
 				font-style: normal;
 				font-weight: bold;
-				font-size: 17px;
-				line-height: 24px;
+				font-size: 4.53vw;
+				line-height: 6.4vw;
 				letter-spacing: 0.03em;
-				padding: 12px 0;
+				padding: 3.2vw 0;
 				color: #fff;
 				-webkit-appearance: button;
 				-moz-appearance: button;
