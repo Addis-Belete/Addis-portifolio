@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 * {
   box-sizing: border-box; }
 
@@ -18,7 +21,7 @@ body {
       top: 45px;
       color: #fff;
       background-color: #3c3a39 !important;
-      font-family: Roboto;
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 18px;
@@ -40,26 +43,24 @@ body {
       display: none;
       position: absolute;
       left: -309px;
-      right: 0px;
-      top: 0px;
+      top: 0;
       bottom: 57px;
       background-color: #dbd8d7;
       min-width: 375px;
       height: 755px;
-      background: #3C3A39;
-      box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+      box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
       right: 10px; }
       body header .dropdown-content i {
         position: relative;
         left: 320px;
         top: -220px;
-        color: #FFF5E1; }
+        color: #fff5e1; }
     body header .dropdown-content a {
-      color: #FFF5E1;
+      color: #fff5e1;
       padding: 12px 16px;
       text-decoration: none;
       display: block;
-      font-family: Inter;
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 32px;
@@ -69,7 +70,7 @@ body {
       width: 327px;
       position: absolute;
       left: 24px;
-      border: 1px solid #6F6C6B;
+      border: 1px solid #6f6c6b;
       display: block; }
     body header .dropdown:hover .dropdown-content {
       display: block; }
@@ -85,7 +86,7 @@ body {
       width: 327px;
       left: 24px;
       top: 50px;
-      font-family: Crete Round;
+      font-family: 'Crete Round', serif;
       font-style: normal;
       font-weight: normal;
       font-size: 56px;
@@ -98,7 +99,7 @@ body {
       height: 27px;
       left: 24px;
       top: 35px;
-      font-family: Roboto;
+      font-family: 'Roboto', sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 24px;
@@ -110,7 +111,7 @@ body {
       height: 123px;
       left: 24px;
       top: 40px;
-      font-family: Poppins;
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -145,7 +146,7 @@ body {
       padding-left: 24px;
       margin-top: 120px;
       color: #1c1a19;
-      font-family: Crete Round;
+      font-family: 'Crete Round', serif;
       font-style: normal;
       font-weight: normal;
       font-size: 40px; }
@@ -168,9 +169,9 @@ body {
       position: relative;
       width: 327px;
       height: 36px;
-      left: 24;
+      left: 24px;
       top: 35px;
-      font-family: Crete Round;
+      font-family: 'Crete Round', serif;
       font-style: normal;
       font-weight: normal;
       font-size: 32px;
@@ -179,8 +180,8 @@ body {
     body .projects .recent_works p {
       color: #091e42;
       width: 327px;
-      height: 147;
-      font-family: Inter;
+      height: 147px;
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: normal;
       font-size: 16px;
@@ -192,7 +193,7 @@ body {
       width: 327px; }
       body .projects .recent_works .stacks .tech1 {
         width: 25px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -205,7 +206,7 @@ body {
         padding: 10px 12px; }
       body .projects .recent_works .stacks .tech2 {
         width: 32px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -218,7 +219,7 @@ body {
         padding: 10px 12px; }
       body .projects .recent_works .stacks .tech3 {
         width: 71px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -231,7 +232,7 @@ body {
         padding: 10px 12px; }
       body .projects .recent_works .stacks .tech4 {
         width: 71px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -252,7 +253,7 @@ body {
       background: #ff6b00;
       margin: 12px 0;
       border: none;
-      font-family: Inter;
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 17px;
@@ -276,7 +277,7 @@ body {
         height: 81px;
         left: 16px;
         top: 70px;
-        font-family: Crete Round;
+        font-family: 'Crete Round', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 32px;
@@ -287,7 +288,7 @@ body {
         width: 295px;
         height: 87px;
         left: 16px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -298,7 +299,7 @@ body {
         top: 50px;
         left: 16px;
         width: 37px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 500;
         font-size: 15px;
@@ -319,7 +320,7 @@ body {
         height: 48px;
         background: #ff6b00;
         border: none;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 17px;
@@ -350,7 +351,7 @@ body {
       left: 24px;
       width: 161px;
       height: 48px;
-      font-family: Inter;
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 17px;
@@ -391,10 +392,9 @@ body {
           position: relative;
           left: 49px;
           text-align: center;
-          color: #dbd8d7;
           width: 164px;
           height: 24px;
-          font-family: InaiMathi;
+          font-family: 'Crete Round', serif;
           font-style: normal;
           font-weight: bold;
           font-size: 32px;
@@ -407,7 +407,7 @@ body {
           list-style: none;
           text-align: center; }
           body .about .tech-stacks .language ul li {
-            font-family: Inter;
+            font-family: 'Inter', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 22px;
@@ -446,7 +446,7 @@ body {
       left: 24px;
       width: 327px;
       height: 216px;
-      font-family: Inter;
+      font-family: 'Inter', sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 32px;
@@ -462,8 +462,7 @@ body {
         top: 100px;
         left: 24px;
         border: none;
-        margin-bottom: 20px;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 15px;
@@ -471,9 +470,7 @@ body {
         height: 18px;
         align-items: center;
         color: #979493;
-        border: 0 solid #dbd8d7;
         border-bottom-width: 1px;
-        border-radius: 0;
         background-color: transparent;
         padding: 14px 0;
         width: 327px;
@@ -487,7 +484,7 @@ body {
         height: 114px;
         border-radius: 0;
         background: #fbf8f7;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 15px;
@@ -502,7 +499,7 @@ body {
         background: #ff6b00;
         border: none;
         margin: 24px 0;
-        font-family: Inter;
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 17px;
@@ -558,7 +555,7 @@ body {
         top: 26px; }
         body header ul li a {
           height: 20px;
-          font-family: Inter;
+          font-family: 'Inter', sans-serif;
           font-style: normal;
           font-weight: 600;
           font-size: 15px;
@@ -616,7 +613,7 @@ body {
         height: 52px;
         padding-left: 24px;
         margin-top: 120px;
-        font-family: Crete Round;
+        font-family: 'Crete Round', serif;
         font-style: normal;
         font-weight: normal;
         font-size: 40px;
@@ -752,9 +749,7 @@ body {
               position: relative;
               top: 100px;
               left: 24px;
-              border: none;
-              margin-bottom: 20px;
-              font-family: Inter;
+              font-family: 'Inter', sans-serif;
               font-style: normal;
               font-weight: normal;
               font-size: 15px;
@@ -764,7 +759,6 @@ body {
               color: #979493;
               border: 0 solid #dbd8d7;
               border-bottom-width: 1px;
-              border-radius: 0;
               background-color: transparent;
               padding: 14px 0;
               width: 327px;
@@ -782,7 +776,7 @@ body {
               height: 114px;
               border-radius: 0;
               background: #fbf8f7;
-              font-family: Inter;
+              font-family: 'Inter', sans-serif;
               font-style: normal;
               font-weight: normal;
               font-size: 15px;
@@ -797,7 +791,7 @@ body {
               background: #ff6b00;
               border: none;
               margin: 24px 0;
-              font-family: Inter;
+              font-family: 'Inter', sans-serif;
               font-style: normal;
               font-weight: bold;
               font-size: 17px;
@@ -821,11 +815,11 @@ body {
               font-weight: bold;
               font-size: 17px;
               border-radius: 5px;
-              font-family: Inter;
+              font-family: 'Inter', sans-serif;
               color: #172b4d; }
         body footer .get-in-touch .footer-icons {
           position: relative;
-          left: 532px; }
+          left: 530px; }
           body footer .get-in-touch .footer-icons .bottom-border {
             display: none; } }
 
