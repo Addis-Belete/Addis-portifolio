@@ -1129,7 +1129,8 @@ body {
 			width: 100%;
 			background: #e5e5e5;
 			overflow-x: hidden;
-			height: 20vw;
+			height: 48vw;
+			padding-bottom: 0;
 
 			.get-in-touch {
 				position: relative;
@@ -1256,12 +1257,12 @@ body {
 					position: relative;
 					left: 34.45vw;
 					top: 18vw;
+					padding: 0;
 
 					a {
 						i {
-							width: 1.25vw;
-							height: 1.39vw;
-							margin-left: 1.39vw;
+							font-size: 1.39vw;
+							margin-left: -1.59vw;
 						}
 					}
 

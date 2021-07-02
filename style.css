@@ -858,7 +858,8 @@ body {
       width: 100%;
       background: #e5e5e5;
       overflow-x: hidden;
-      height: 20vw; }
+      height: 48vw;
+      padding-bottom: 0; }
       body footer .get-in-touch {
         position: relative;
         left: 7.71vw;
@@ -957,11 +958,11 @@ body {
         body footer .get-in-touch .footer-icons {
           position: relative;
           left: 34.45vw;
-          top: 18vw; }
+          top: 18vw;
+          padding: 0; }
           body footer .get-in-touch .footer-icons a i {
-            width: 1.25vw;
-            height: 1.39vw;
-            margin-left: 1.39vw; }
+            font-size: 1.39vw;
+            margin-left: -1.59vw; }
           body footer .get-in-touch .footer-icons .bottom-border {
             display: none; } }
 
