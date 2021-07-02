@@ -1,198 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap');
+
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 section {
-	position: absolute;
-	width: 343px;
-	height: 718px;
-	left: 16px;
-	top: 60px;
-	background: #fff;
-	border: 1px solid #dfe1e6;
-	box-sizing: border-box;
+  position: absolute;
+  width: 343px;
+  height: 718px;
+  left: 16px;
+  top: 60px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
 
-	h3 {
-		position: relative;
-		width: 300px;
-		height: 82px;
-		top: 0;
-		font-family: Roboto;
-		font-style: normal;
-		font-weight: bold;
-		font-size: 32px;
-		line-height: 44px;
-		color: #172b4d;
-		left: 16px;
-		margin-bottom: 30px;
+  h3 {
+    position: relative;
+    width: 300px;
+    height: 82px;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+    left: 16px;
+    margin-bottom: 30px;
 
-		a {
-			position: relative;
-			left: 130px;
-			right: 12px;
-			top: 5px;
-			color: #67798e;
-			text-decoration: none;
-		}
+    a {
+      position: relative;
+      left: 130px;
+      right: 12px;
+      top: 5px;
+      color: #67798e;
+      text-decoration: none;
+    }
 
-		// for telegram bot page
-		.bot-title {
-			width: 100px;
-		}
+    // for telegram bot page
+    .bot-title {
+      width: 100px;
+    }
 
-		a.button {
-			margin-left: -40px;
-			margin-top: 20px;
-		}
+    a.button {
+      margin-left: -40px;
+      margin-top: 20px;
+    }
 
-		//-------------------
-	}
+    //-------------------
+  }
 
-	//for tic tac toe page
-	.tic-tac {
-		width: 280px;
+  //for tic tac toe page
+  .tic-tac {
+    width: 280px;
 
-		a {
-			margin-left: -100px;
-		}
-	}
+    a {
+      margin-left: -100px;
+    }
+  }
 
-	//----------------------------------
-	// for delala webpage (html capstone)
-	.delala-title {
-		width: 250px;
+  //----------------------------------
+  // for delala webpage (html capstone)
+  .delala-title {
+    width: 250px;
 
-		a {
-			position: relative;
-			left: 90px;
-		}
-	}
+    a {
+      position: relative;
+      left: 90px;
+    }
+  }
 
-	//-----------------------------
-	.techs {
-		span {
-			position: relative;
-			top: 30px;
-			left: 16px;
-			height: 16px;
-			font-family: Poppins;
-			font-style: normal;
-			font-weight: 600;
-			font-size: 13px;
-			line-height: 16px;
-			color: #3c3a39;
-			align-items: center;
-			padding: 16px;
-			background: #fff;
-			border: 1px solid #dfe1e6;
-			margin-bottom: 30px;
-		}
-	}
+  //-----------------------------
+  .techs {
+    span {
+      position: relative;
+      top: 30px;
+      left: 16px;
+      height: 16px;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      color: #3c3a39;
+      align-items: center;
+      padding: 16px;
+      background: #fff;
+      border: 1px solid #dfe1e6;
+      margin-bottom: 30px;
+    }
+  }
 
-	.project-detail {
-		img {
-			position: relative;
-			width: 311px;
-			height: 220px;
-			left: 16px;
-			top: 70px;
-		}
+  .project-detail {
+    img {
+      position: relative;
+      width: 311px;
+      height: 220px;
+      left: 16px;
+      top: 70px;
+    }
 
-		.project-description {
-			p {
-				position: relative;
-				top: 87px;
-				width: 311px;
-				left: 16px;
-				height: 220px;
-				font-family: Inter;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 16px;
-				line-height: 24px;
-				color: #344563;
-			}
+    .project-description {
+      p {
+        position: relative;
+        top: 87px;
+        width: 311px;
+        left: 16px;
+        height: 220px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #344563;
+      }
 
-			a {
-				position: relative;
-				width: 134px;
-				top: 80px;
-				left: 16px;
+      a {
+        position: relative;
+        width: 134px;
+        top: 80px;
+        left: 16px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #fff;
+        padding: 12px;
+        background: #ff6b00;
+        height: 48px;
+        margin-right: 19px;
+      }
 
-				font-family: Inter;
-				font-style: normal;
-				font-weight: bold;
-				font-size: 17px;
-				line-height: 24px;
-				text-align: center;
-				letter-spacing: 0.03em;
-				color: #fff;
-				padding: 12px;
-				background: #ff6b00;
-				height: 48px;
-				margin-right: 19px;
-			}
-
-			a:hover {
-				background: #fff5e1;
-				border: 1px solid #f55800;
-				box-sizing: border-box;
-				text-decoration: none;
-				color: #f55800;
-			}
-		}
-	}
+      a:hover {
+        background: #fff5e1;
+        border: 1px solid #f55800;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #f55800;
+      }
+    }
+  }
 }
 
 @media (min-width: 1024px) {
-	section {
-		width: 100%;
-		position: absolute;
-		top: 112px;
-		left: 142px;
+  section {
+    width: 100%;
+    position: absolute;
+    top: 112px;
+    left: 142px;
+    height: 631px;
 
-		height: 631px;
+    .title {
+      h3 {
+        width: 1056px;
+        line-height: 44px;
 
-		.title {
-			h3 {
-				width: 1056px;
-				line-height: 44px;
+        a {
+          position: relative;
+          left: 900px;
+        }
+      }
+    }
 
-				a {
-					position: relative;
-					left: 900px;
-				}
-			}
-		}
+    .techs {
+      position: relative;
+      top: -80px;
+    }
 
-		.techs {
-			position: relative;
-			top: -80px;
-		}
+    .project-detail {
+      display: grid;
+      grid-template-columns: 659px 424px;
+      position: relative;
+      bottom: 50px;
+      grid-gap: 25px;
 
-		.project-detail {
-			display: grid;
-			grid-template-columns: 659px 424px;
-			position: relative;
-			bottom: 50px;
-			grid-gap: 25px;
+      img {
+        width: 659px;
+        height: 448px;
+      }
 
-			img {
-				width: 659px;
-				height: 448px;
-			}
+      .project-description {
+        p {
+          width: 424px;
+          height: 336px;
+        }
 
-			.project-description {
-				p {
-					width: 424px;
-					height: 336px;
-				}
-
-				a {
-					position: relative;
-					top: 137px;
-				}
-			}
-		}
-	}
+        a {
+          position: relative;
+          top: 137px;
+        }
+      }
+    }
+  }
 }
