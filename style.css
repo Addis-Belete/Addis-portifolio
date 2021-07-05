@@ -55,7 +55,7 @@ body header .dropdown-content {
   bottom: 15.2vw;
   background-color: #3c3a39;
   min-width: 100vw;
-  height: 201.33vw;
+  height: 55vw;
   box-shadow: 0 12.8vw 12.8vw rgba(37, 47, 137, 0.08);
   right: 2.67vw;
 }
@@ -657,6 +657,15 @@ body footer .get-in-touch .footer-icons .bottom-border {
   body header ul li a i {
     font-size: 1.5vw;
     line-height: 1.39vw;
+    display: none !important;
+  }
+  body header ul li a:hover {
+    text-decoration: none;
+    color: #F55800;
+  }
+  body header ul li a:active {
+    text-decoration: none;
+    color: #F55800;
   }
   body .intro {
     margin-top: -19.792vw;
@@ -819,6 +828,7 @@ body footer .get-in-touch .footer-icons .bottom-border {
     width: 8.61vw;
     font-size: 1.2vw;
     line-height: 1.67vw;
+    z-index: 9;
   }
   body .projects .sample-project {
     position: absolute;
