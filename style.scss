@@ -84,7 +84,7 @@ body {
       bottom: 15.2vw;
       background-color: #3c3a39;
       min-width: 100vw;
-      height: 201.33vw;
+      height: 55vw;
       box-shadow: 0 12.8vw 12.8vw rgba(37, 47, 137, 0.08);
       right: 2.67vw;
 
@@ -721,7 +721,18 @@ body {
             i {
               font-size: 1.5vw;
               line-height: 1.39vw;
+              display: none !important;
             }
+          }
+
+          a:hover {
+            text-decoration: none;
+            color: #f55800;
+          }
+
+          a:active {
+            text-decoration: none;
+            color: #f55800;
           }
         }
       }
@@ -898,6 +909,7 @@ body {
           width: 8.61vw;
           font-size: 1.2vw;
           line-height: 1.67vw;
+          z-index: 9;
         }
       }
 
