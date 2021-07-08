@@ -1,14 +1,6 @@
 const dropDown = document.getElementsByClassName("dropbtn");
-const body = document.querySelector('body');
-let myHeading = document.getElementsByClassName('addis')
-myHeading.textContent = 'red';
-
-dropDown[0].addEventListener('click', function () {
-	body.style.display = "none";
-});
-
-let form = document.getElementById("my-form");
-
+const form = document.getElementById("my-form");
+const deskFrom = document.getElementById("desk-form")
 async function handleSubmit(event) {
 	event.preventDefault();
 	let status = document.getElementById("status");
@@ -22,10 +14,15 @@ async function handleSubmit(event) {
 	}).then(response => {
 		status.innerHTML = "Thanks for your submission!";
 		form.reset()
-		setTimeout(status, 3000);
+		setTimeout(() => {
+			status.innerText = '';
+		}, 3000);
 	}).catch(error => {
 		status.innerHTML = "Oops! There was a problem submitting your form"
-		setTimeout(status, 3000);
+		setTimeout(() => {
+			status.innerText = '';
+		}, 3000);
 	});
 }
 form.addEventListener("submit", handleSubmit)
+deskFrom.addEventListener("submit", handleSubmit)
