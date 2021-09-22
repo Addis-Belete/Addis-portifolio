@@ -1,7 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-
+# Personal Portifolio
 >Is a personal Portifolio Buily using HTML5, CSS3 and JavaScript
 
 
