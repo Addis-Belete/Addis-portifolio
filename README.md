@@ -2,7 +2,8 @@
 
 # Project Name
 
-> One paragraph statement about the project.
+>Is a personal Portifolio Buily using HTML5, CSS3 and JavaScript
+
 
 ![screenshot](./app_screenshot.png)
 
